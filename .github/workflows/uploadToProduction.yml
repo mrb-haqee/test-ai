@@ -45,7 +45,7 @@ jobs:
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ftp://46.202.137.54
+          server: 46.202.137.54
           username: u643696398.tempatkita
           password: Tempatkita2022.
           local-dir: ./dist/
